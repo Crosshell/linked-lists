@@ -1,0 +1,15 @@
+{
+  "name": "linked-lists",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "prettier": "^3.5.2",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
