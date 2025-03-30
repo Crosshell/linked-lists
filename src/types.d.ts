@@ -12,3 +12,8 @@ declare interface IList {
   clear(): void;
   extend(elements: IList): void;
 }
+
+declare interface INode {
+  value: string;
+  next: INode | null;
+}
