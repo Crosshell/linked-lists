@@ -83,7 +83,7 @@ export class CircularLinkedList implements IList {
       current.next = current.next!.next;
     }
 
-    this.size--;
+    // this.size--;
     return value;
   }
 
